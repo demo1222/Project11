@@ -331,14 +331,14 @@ class Ui_StaffWindow(object):
         self.label_15.setText(_translate("MainWindow", "staff"))
         self.pushButton_2.setText(_translate("MainWindow", "profit"))
         self.pushButton_3.setText(_translate("MainWindow", "add a movie"))
-        self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab), _translate("MainWindow", "Tab 1"))
+        self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab), _translate("MainWindow", "Home"))
         self.lineEdit.setPlaceholderText(_translate("MainWindow", "Movie title and short description"))
         self.pushButton_7.setText(_translate("MainWindow", "next"))
-        self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_2), _translate("MainWindow", "Tab 2"))
+        self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_2), _translate("MainWindow", "Movie"))
         self.label_2.setText(_translate("MainWindow", "schedule"))
         self.pushButton_9.setText(_translate("MainWindow", "next"))
         self.label_12.setText(_translate("MainWindow", "price:"))
-        self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_3), _translate("MainWindow", "Страница"))
+        self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_3), _translate("MainWindow", "Schedule"))
         item = self.tableWidget.verticalHeaderItem(0)
         item.setText(_translate("MainWindow", "1"))
         item = self.tableWidget.verticalHeaderItem(1)
@@ -367,7 +367,7 @@ class Ui_StaffWindow(object):
         item.setText(_translate("MainWindow", "Movie"))
         item = self.tableWidget.horizontalHeaderItem(1)
         item.setText(_translate("MainWindow", "Profit"))
-        self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_4), _translate("MainWindow", "Страница"))
+        self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_4), _translate("MainWindow", "Profit"))
 
 
 if __name__ == "__main__":
