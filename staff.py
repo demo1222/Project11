@@ -206,7 +206,7 @@ class Ui_StaffWindow(object):
         self.tab_4 = QtWidgets.QWidget()
         self.tab_4.setObjectName("tab_4")
         self.tableWidget = QtWidgets.QTableWidget(self.tab_4)
-        self.tableWidget.setGeometry(QtCore.QRect(120, 20, 251, 300))
+        self.tableWidget.setGeometry(QtCore.QRect(100, 20, 270, 300))
         self.tableWidget.setStyleSheet("\n"
 "QTableWidget::horizontalHeader {\n"
 "    background-color: #f8bbd0;  /* Розовый цвет фона */\n"
@@ -240,7 +240,7 @@ class Ui_StaffWindow(object):
 "")
         self.tableWidget.setObjectName("tableWidget")
         self.tableWidget.setColumnCount(2)
-        self.tableWidget.setRowCount(12)
+        self.tableWidget.setRowCount(12)  
         item = QtWidgets.QTableWidgetItem()
         font = QtGui.QFont()
         font.setPointSize(12)
@@ -302,8 +302,12 @@ class Ui_StaffWindow(object):
         item.setFont(font)
         self.tableWidget.setVerticalHeaderItem(11, item)
         item = QtWidgets.QTableWidgetItem()
+        font.setPointSize(14)
+        item.setFont(font)
         self.tableWidget.setHorizontalHeaderItem(0, item)
         item = QtWidgets.QTableWidgetItem()
+        font.setPointSize(14)
+        item.setFont(font)
         self.tableWidget.setHorizontalHeaderItem(1, item)
         self.label_11 = QtWidgets.QLabel(self.tab_4)
         self.label_11.setGeometry(QtCore.QRect(380, 260, 191, 51))
